@@ -1,0 +1,8 @@
+{
+  "token": "[Token (Si usas replit es aconsejable ponerlo en el apartado Secrets)]",
+  "mongodb": "[Enlace de MongoDB (Opcional)]",
+  "name": "[Nombre del Bot]",
+  "id": "[ID del Bot]",
+  "color":"[0x y el hexadecimal del color de los embeds]",
+  "banner":"[Banner del Bot]"
+}
