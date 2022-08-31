@@ -10,7 +10,7 @@ module.exports = {
   .setDescription("Comando Ping"),
   run: async (client, interaction, args) => {
 
-    const ping = Math.floor(clint.ws.ping)
+    const ping = Math.floor(client.ws.ping)
 
     return interaction.followUp({ content: `Mi ping es ${ping}ms` });
      
