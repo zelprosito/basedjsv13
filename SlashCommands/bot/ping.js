@@ -6,8 +6,8 @@ const config = require("../../config/bot.json");
 
 module.exports = {
   ... new SlashCommandBuilder()
-  .setName("setup-tickets")
-  .setDescription("Crea un panel de Tickets (Solo Administradores)"),
+  .setName("ping")
+  .setDescription("Comando Ping"),
   run: async (client, interaction, args) => {
 
     const ping = Math.floor(clint.ws.ping)
